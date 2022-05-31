@@ -11,6 +11,9 @@ body {
   background: hsl(218, 23%, 16%);
   color: white;
   font-family: 'Manrope', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -27,9 +30,9 @@ p {
 
 .container {
   position: relative;
+  margin: auto;
   width: 700px;
   min-height: 40vh;
-  margin: auto;
   margin-top: 30vh;
   background: hsl(217, 19%, 24%);
   border-radius: 2rem;
@@ -53,4 +56,33 @@ p {
 img {
   margin: 20px;
   pointer-events: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    position: relative;
+    min-width: 20vw;
+    min-height: 40vh;
+    margin: 0rem 5rem;
+    margin-top: 30vh;
+    background: hsl(217, 19%, 24%);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 0.5rem;
+    margin-bottom: 2rem;
+  }
 }
