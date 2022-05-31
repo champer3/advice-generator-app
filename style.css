@@ -63,7 +63,6 @@ img {
     position: relative;
     min-width: 20vw;
     min-height: 40vh;
-    margin: 0rem 5rem;
     margin-top: 30vh;
     background: hsl(217, 19%, 24%);
     border-radius: 2rem;
@@ -71,7 +70,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 4rem;
+    padding: 0rem;
   }
 
   h1 {
