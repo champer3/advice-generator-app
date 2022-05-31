@@ -63,8 +63,8 @@ img {
     position: relative;
     min-width: 20vw;
     min-height: 40vh;
-    margin-top: 30vh;
     margin: auto;
+    margin-top: 30vh;
     background: hsl(217, 19%, 24%);
     border-radius: 2rem;
     display: flex;
